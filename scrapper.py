@@ -20,7 +20,7 @@ def price_check():
     print (converted_price)
    
    
-    if(converted_price > 250.00):
+    if(converted_price > 250.00):   # made it like this because i wanted to testt the email feature!
         print("Item is on Sale! :)")
         send_mail()
     else:
